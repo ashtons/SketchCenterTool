@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "name": "Center Tool",
+  "icon": "icon.png",
+  "description": "Moves selected layer or group to center of parent.",
+  "author": "Sean Ashton",
+  "authorEmail": "sean@schimera.com",
+  "version": "0.1.0",
+  "identifier": "com.schimera.sketch.center-tool",
+  "disableCocoaScriptPreprocessor": true,
+  "commands": [
+    {
+      "name": "Align Center of Parent",
+      "identifier": "center-tool.align-center-identifier",
+	  "shortcut": "command shift c",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "Center Tool",
+    "items": [
+      "center-tool.align-center-identifier"
+    ]
+  }
+}
