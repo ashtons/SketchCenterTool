@@ -5,7 +5,7 @@
   "description": "Moves selected layer or group to center of parent.",
   "author": "Sean Ashton",
   "authorEmail": "sean@schimera.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "identifier": "com.schimera.sketch.center-tool",
   "disableCocoaScriptPreprocessor": true,
   "commands": [
