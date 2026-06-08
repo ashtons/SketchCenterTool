@@ -9,6 +9,10 @@ export default function() {
 	if (layers.length > 0) {
 	    var layer = layers.layers[0]
 	    var parent = layer.parent
+	    if (!parent || !parent.frame) {
+	    	sketch.UI.message("Select a layer inside a group or artboard")
+	    	return
+	    }
 	    var w = layer.frame.width
 	    var h = layer.frame.height
 	    var pw = parent.frame.width
